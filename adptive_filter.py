@@ -124,15 +124,15 @@ def main():
 
     parser.add_argument('--clean_wav',
                         type=str,
-                        default=r'D:\桌面\数字助听器\python_howling_suppression-master\data\Adaptive_Filter\SI1186.wav')
+                        default=r'./data/Adaptive_Filter/SI1186.wav')
 
     parser.add_argument('--howl_wav',
                         type=str,
-                        default=r'D:\桌面\数字助听器\python_howling_suppression-master\data\Adaptive_Filter\SI1186_howl.wav')
+                        default=r'./data/Adaptive_Filter/SI1186_howl.wav')
 
     parser.add_argument('--suppress_wav',
                         type=str,
-                        default=r'D:\桌面\数字助听器\python_howling_suppression-master\data\Adaptive_Filter\SI1186_howl_suppress.wav')
+                        default=r'./data/Adaptive_Filter/SI1186_howl_suppress.wav')
 
 
     args = parser.parse_args()

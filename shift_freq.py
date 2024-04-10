@@ -188,19 +188,19 @@ def main():
 
     parser.add_argument('--clean_wav',
                         type=str,
-                        default=r'D:\桌面\数字助听器\python_howling_suppression-master\data\Shift_Freq\SI1186.wav')
+                        default=r'./data/Shift_Freq/SI1186.wav')
 
     parser.add_argument('--howl_wav',
                         type=str,
-                        default=r'D:\桌面\数字助听器\python_howling_suppression-master\data\Shift_Freq\SI1186_howl.wav')
+                        default=r'./data/Shift_Freq/SI1186_howl.wav')
 
     parser.add_argument('--pha_shift_wav',
                         type=str,
-                        default=r'D:\桌面\数字助听器\python_howling_suppression-master\data\Shift_Freq\SI1186_howl_suppress_pha.wav')
+                        default=r'./data/Shift_Freq/SI1186_howl_suppress_pha.wav')
 
     parser.add_argument('--frq_shift_wav',
                         type=str,
-                        default=r'D:\桌面\数字助听器\python_howling_suppression-master\data\Shift_Freq\SI1186_howl_suppress_frq.wav')
+                        default=r'./data/Shift_Freq/SI1186_howl_suppress_frq.wav')
 
     args = parser.parse_args()
 
